@@ -51,7 +51,7 @@ navLinks.forEach((n) =>
 /*===== COPY Email =====*/
 const copy = document.getElementById("copy");
 copy.addEventListener("click", () => {
-  navigator.clipboard.writeText("ipincam@gmail.com");
+  navigator.clipboard.writeText("arifin.ts@student.uhb.ac.id");
   copy.innerHTML = "copied";
   setTimeout(() => {
     copy.innerHTML = null;
